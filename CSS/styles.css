@@ -16,3 +16,11 @@ h1{
 p{
     text-align: center;
 }
+
+label
+{
+  vertical-align: text-top;
+}
+footer{
+  text-align: center;
+}
