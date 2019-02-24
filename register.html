@@ -2,57 +2,68 @@
 <html>
 
 <head>
-    <title>Register Foodar</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+  <title>Register Foodar</title>
+  <link href="css/styles.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-        <!-- <div class="logos">
-            <a href="index.html">
-                <img src="images/logo.png">
-            </a>
-        </div> -->
-        Foodar
-    </header>
-        <div class="wrapper">
-            <form>
-                <span>Register</span>
-                <h3>Please fill out the form below:</h3>
-                <h3>Details:</h3>
-                <label>Email:</label>
+  <header>
+    <div class="logos">
+      <a href="index.html">
+        <img src="css/images/foodar-logo.png">
+      </a>
+    </div>
+  </header>
+  <section id="register" class="container">
+    <div class="heading">
+      <h3 class="heading-text">Register</h3>
+      <div class="underline"></div>
+    </div>
+    <div class="wrapper width-60">
+      <p>Please fill out the form below:<p>
+          <form action="#">
+            <div class="form-group">
+              <h5>Details:</h5>
+              <div class="r-input">
                 <input type="email" name="email" placeholder="Email">
-                <br />
-                <label>Password:</label>
+              </div>
+              <div class="r-input">
                 <input type="password" name="password" placeholder="Password">
-                <br />
-                <label>First Name:</label>
+              </div>
+              <div class="r-input">
                 <input type="text" name="firstname" placeholder="First Name">
-                <br />
-                <label>Last Name:</label>
+              </div>
+              <div class="r-input">
                 <input type="text" name="lastname" placeholder="Last Name">
-            </form>
-        </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div class="form-group">
+              <h5>Address:</h5>
+              <div class="r-input">
+                <input type="text" name="address" placeholder="Address">
+              </div>
+              <div class="r-input">
+                <input type="text" name="address" placeholder="Street">
+              </div>
+              <div class="r-input">
+                <input type="text" name="address" placeholder="City">
+              </div>
+              <div class="r-input">
+                <input type="text" name="address" placeholder="Zipcode">
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div class="form-group">
+              <input type="submit" name="register" value="Register">
+            </div>
+            <div class="clear"></div>
+          </form>
+    </div>
+    <div class="clear"></div>
+  </section>
 
-        <div class="wrapper"></div>
-        <form>
-          <h3>Address:</h3>
-          <label>Address:</label>
-          <input type="number" name="address" placeholder="Address">
-          <br/>
-          <label>Street:</label>
-          <input type="text" name="street" placeholder="Street">
-          <br />
-          <label>City:</label>
-          <input type="text" name="city" placeholder="City">
-          <br />
-          <label>Zipcode:</label>
-          <input type="number" name="zipcode" placeholder="Zipcode">
-          <br />
-          <br />
-          <input type="submit" name="register" placeholder="Register">
-        </form>
-        </div>
-<footer>&copy;Shemika's Foodar 100</footer>
+  <footer>&copy;Shemika's Foodar 100</footer>
 </body>
+
 </html>
